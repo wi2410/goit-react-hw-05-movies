@@ -12,7 +12,7 @@ export const Input = styled.input`
   width: 200px;
   font: inherit;
   font-size: 20px;
-  border: 2px solid blue;
+  border: 2px solid #49eff2;
   border-radius: 10px;
   outline: none;
   padding-left: 4px;
@@ -30,7 +30,7 @@ export const SearchFormButton = styled.button`
   border: 0;
   border-radius: 10px;
   background-size: 40%;
-  background-color: blue;
+  background-color: #49eff2;
   color: white;
   background-repeat: no-repeat;
   background-position: center;

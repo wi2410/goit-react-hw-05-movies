@@ -16,12 +16,12 @@ export const NavItem = styled(NavLink)`
   margin: 12px;
 
   &.active {
-    background-color: blue;
+    background-color: #49eff2;
     color: white;
   }
 
   :hover:not(.active),
   :focus-visible:not(.active) {
-    color: blue;
+    color: #49eff2;
   }
 `;

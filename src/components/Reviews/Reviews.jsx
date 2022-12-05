@@ -8,11 +8,11 @@ const Reviews = () => {
 
   useEffect(() => {
     getReviews(movieId).then(result =>
-      // console.log(result)
+      
       setReviews(result.results)
     );
   }, [movieId]);
-  // console.log(reviews);
+  
   return (
     <ul>
       {reviews.length === 0 ? (
